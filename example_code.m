@@ -13,4 +13,4 @@ r = 3;
 
 pred_label = OPTICAL_plus(train_data,class_train,test_data,class_test,Fs,WindowSize,3);
 
-Accuracy = mean(pred_label==class_test)
+Accuracy = mean(pred_label==class_test')
